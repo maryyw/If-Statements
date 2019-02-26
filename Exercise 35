@@ -1,0 +1,14 @@
+age_in_human_years = float(input("How old is your dog in human years: "))
+
+if age_in_human_years < 0: 
+  print("Invalid input. There are no such things as negative years in this world at the moment")
+
+elif age_in_human_years > 2: 
+  age_in_dog_years = age_in_human_years * 7
+  print(f"Your dog is {round(age_in_dog_years, 2)} old in dog years")
+
+elif age_in_human_years <= 2:
+  age_in_dog_years = age_in_human_years * 5.25
+  print(f"Your dog is {round(age_in_dog_years, 2)} old in dog years")
+else:
+  print("Invalid input. There are no such things as negative years in this world at the moment")
