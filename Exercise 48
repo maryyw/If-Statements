@@ -1,0 +1,37 @@
+year = int(input("Input year: "))
+
+if year % 12 == 8:
+  print(f"The year, {year} is the year of the Dragon.")
+
+elif year % 12 == 9:
+  print(f"The year, {year} is the year of the Snake.")
+
+elif year % 12 == 10:
+  print(f"The year, {year} is the year of the Horse.")
+
+elif year % 12 == 11:
+  print(f"The year, {year} is the year of the Sheep.")
+
+elif year % 12 == 0:
+  print(f"The year, {year} is the year of the Monkey.")
+
+elif year % 12 == 1:
+  print(f"The year, {year} is the year of the Rooster.")
+
+elif year % 12 == 2:
+  print(f"The year, {year} is the year of the Dog.")
+
+elif year % 12 == 3:
+  print(f"The year, {year} is the year of the Pig.")
+
+elif year % 12 == 4:
+  print(f"The year, {year} is the year of the Rat.")
+
+elif year % 12 == 5:
+  print(f"The year, {year} is the year of the Ox.")
+
+elif year % 12 == 6:
+  print(f"The year, {year} is the year of the Tiger.")
+
+elif year % 12 == 7:
+  print(f"The year, {year} is the year of the Hare.")
