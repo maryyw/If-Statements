@@ -1,0 +1,28 @@
+number_of_sides = int(input("Input a number of sides to a shape: "))
+
+if number_of_sides == 3:
+  print("You have a triangle!")
+
+elif number_of_sides == 4:
+  print("You have a square!")
+
+elif number_of_sides == 5:
+  print("You have a pentagon!")
+
+elif number_of_sides == 6:
+  print("You have a hexagon!")
+
+elif number_of_sides == 7:
+  print("You have a heptagon!")
+
+elif number_of_sides == 8:
+  print("You have an octagon!")
+
+elif number_of_sides == 9:
+  print("You have a nonagon!")
+
+elif number_of_sides == 10:
+  print("You have a decagon!")
+
+else:
+  print("Inputted number must be between 3 and 10, 3 and 10 included.")
