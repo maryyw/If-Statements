@@ -1,0 +1,24 @@
+letter = input("Please input a letter: ")
+
+if letter == "a":
+  print(f"'{letter}' is a vowel")
+
+elif letter == "e":
+  print(f"'{letter}' is a vowel")
+
+elif letter == "i":
+  print(f"'{letter}' is a vowel")
+
+elif letter == "o":
+  print(f"'{letter}' is a vowel")
+
+elif letter == "u":
+  print(f"'{letter}' is a vowel")
+
+elif letter == "y":
+  print(f"'{letter}' is something a vowel")
+
+else:
+  print(f"'{letter}' is a consonant. If it is more than one letter, it is invalid")
+
+
