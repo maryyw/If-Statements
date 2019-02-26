@@ -1,0 +1,7 @@
+integer = int(input("Please input an integer: "))
+
+if integer % 2 == 1:
+  print(f"{integer} is odd")
+
+else:
+  print(f"{integer} is even")
